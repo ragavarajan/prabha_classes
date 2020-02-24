@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "exploring cucumber",
+        "description": "",
+        "id": "tags-test;exploring-cucumber",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4020596178,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the browser",
+            "match": {
+              "location": "Stepfordatadriven.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9872907469,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter url",
+            "match": {
+              "location": "Stepfordatadriven.enter_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 361145923,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter username and password",
+            "match": {
+              "location": "Stepfordatadriven.enter_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "contactus@targetbay",
+                  "t@rgEdb@y"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3084745320,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click submit",
+            "match": {
+              "location": "Stepfordatadriven.click_submit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Tags test",
+    "description": "",
+    "id": "tags-test",
+    "keyword": "Feature",
+    "uri": "Featuretest2.feature"
+  }
+]

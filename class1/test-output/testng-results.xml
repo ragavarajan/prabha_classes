@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-21T16:28:18Z" name="Default suite" finished-at="2020-02-21T16:28:30Z" duration-ms="11436">
+    <groups>
+    </groups>
+    <test started-at="2020-02-21T16:28:18Z" name="Default test" finished-at="2020-02-21T16:28:30Z" duration-ms="11436">
+      <class name="com.basics.one2.Css_selectors">
+        <test-method signature="autoittest()[pri:0, instance:com.basics.one2.Css_selectors@d6e7bab]" started-at="2020-02-21T16:28:18Z" name="autoittest" finished-at="2020-02-21T16:28:30Z" duration-ms="11383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoittest -->
+      </class> <!-- com.basics.one2.Css_selectors -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
